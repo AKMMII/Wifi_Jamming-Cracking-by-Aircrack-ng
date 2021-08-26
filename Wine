@@ -1,0 +1,20 @@
+sudo apt-get update (Must)
+sudo apt-get upgrade (Must) (Much Time)
+sudo apt install wine
+wine
+wine --version
+dpkg --add-architecture i386
+sudo apt update
+sudo apt install wine32
+winecfg
+
+setup wine windows Program loader 
+
+sudo ln -s /usr/share/doc/wine/examples/wine.desktop /usr/share/applications (wine windows program loader)
+
+winetricks
+
+sudo apt install winetricks
+winetricks (GUI)
+
+
