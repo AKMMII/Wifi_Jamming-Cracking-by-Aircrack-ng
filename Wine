@@ -1,11 +1,12 @@
-sudo apt-get update (Must)
-sudo apt-get upgrade (Must) (Much Time)
+sudo apt-get update #(Must)
+sudo apt-get upgrade #(Must) (Much Time)
 sudo apt install wine
 wine
 wine --version
 dpkg --add-architecture i386
 sudo apt update
-sudo apt install wine32
+sudo apt install wine32   # If you facing E: Error, pkgProblemResolver::Resolve generated breaks, this may be caused by held packages. 
+                             #Type: "sudo apt install libkf5notifications5"
 winecfg
 
 setup wine windows Program loader 
